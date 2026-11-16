@@ -619,7 +619,7 @@ function viewHome() {
     <section class="hero">
       <div class="hero-glow" aria-hidden="true"></div>
       <div class="wrap hero-inner">
-        <h1 class="t-hero">What’s wrong with your <span class="swoosh">laptop?${SWOOSH}</span></h1>
+        <h1 class="t-hero"><span class="hl">What’s wrong</span> <span class="hl">with your <span class="swoosh">laptop?${SWOOSH}</span></span></h1>
         <p class="t-lede">Describe your issue or upload a snapshot. We’ll help you fix it, step by step.</p>
         <div id="heroSearch"></div>
         <div class="try">${POPULAR.map(id => `<a class="chip" href="#/p/${id}">${esc(SHORT[id])}</a>`).join('')}</div>
